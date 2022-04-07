@@ -1,0 +1,180 @@
+body {
+    position: relative;
+    background-color: white;
+}
+
+/* navbar */
+.logo img {
+    width: 35px;
+}
+
+.bg-custom {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+/* jumbotron */
+.carousel img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* about */
+.about {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+/* product */
+#carouselExampleCaptions1, #carouselExampleCaptions2 {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.carousel-caption h3 {
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    padding-bottom: 50px;
+    font-weight: 600;
+}
+
+.produk {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+.instagram {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 9px;
+    box-sizing: border-box;
+}
+
+.column img {
+    transition: transform .2s;
+}
+
+.column img:hover {
+    transform: scale(1.05);
+}
+
+.instagram img {
+    width: 40px;
+    padding-right: 5px;
+    padding-left: 7px;
+}
+
+.instagram a {
+    text-decoration: none;
+    font-weight: bold;
+    color:royalblue;
+}
+
+.instagram a:hover {
+    color: cornflowerblue;
+}
+
+.carousel-inner .btn {
+    font-weight: bold;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+  
+/* Clearfix (clear floats) */
+.tes::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* partner */
+.swiper img {
+    width: 100px;
+}
+
+.partner {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+/* contact */
+.socmed img {
+    width: 40px;
+    padding-right: 10px;
+}
+
+.socmed a {
+    text-decoration: none;
+    font-weight: bold;
+    color:royalblue;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.contact {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+.contact p {
+    font-weight: 400;
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+}
+
+.contact a:hover {
+    color: cornflowerblue;
+}
+
+/* footer */
+.footer {
+    padding-top: 15px;
+    border-radius: 5px 5px 0px 0px;
+    background-image: linear-gradient(15deg, #414141 0%, #000000 100%);
+}
+
+.footer p {
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+.footer a:hover {
+    color: cornflowerblue;
+}
