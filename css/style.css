@@ -5,7 +5,7 @@ body {
 
 /* navbar */
 .logo img {
-    width: 35px;
+    width: 110px;
 }
 
 .bg-custom {
@@ -113,6 +113,10 @@ body {
 }
 
 /* contact */
+.socmed .logo {
+    width: 250px;
+}
+
 .socmed img {
     width: 40px;
     padding-right: 10px;
