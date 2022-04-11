@@ -204,6 +204,28 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.contact i {
+    font-size: 40px;
+    color: #13547a;
+}
+
+.uil-facebook-f {
+    font-size: 30px !important;
+    color: #3b5998 !important;
+    margin-right: 10px;
+}
+
+.uil-instagram {
+    font-size: 30px !important;
+    color: #E1306C !important;
+    margin-right: 10px;
+}
+
+.uil-whatsapp {
+    font-size: 30px !important;
+    color: #25D366 !important;
+}
+
 .contact a:hover {
     color: cornflowerblue;
 }
